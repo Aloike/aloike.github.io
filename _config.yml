@@ -1,3 +1,13 @@
+##  @see    https://jekyllrb.com/docs/configuration/options/
+
+# Set the directory of site sources:
+source: src
+
+# # Change the directory where Jekyll will write files
+# destination: DIR
+
+
+
 theme: jekyll-theme-midnight
 
 # title: [The title of your site]
@@ -6,3 +16,9 @@ theme: jekyll-theme-midnight
 # show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
 show_downloads: false
 # google_analytics: [Your Google Analytics tracking ID]
+
+
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
